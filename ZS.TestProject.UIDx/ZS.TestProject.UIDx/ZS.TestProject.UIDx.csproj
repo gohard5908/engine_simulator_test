@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06FE89DB-9528-4D44-9DC6-3BAF78F0BF42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZS.TestProject.UIDx</RootNamespace>
+    <AssemblyName>ZS.TestProject.UIDx</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\02-空白系统框架\WHC.WareHouseMis\bin\Debug\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v14.1.UI, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1.Wizard, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntLibContrib.Data.MySql">
+      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.WareHouseDx\bin\Debug\EntLibContrib.Data.MySql.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.12.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WHC.DictionaryDx">
+      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.DictionaryDx.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Framework.BaseUIDx, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\C#项目\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.Framework.BaseUIDx.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Framework.Commons">
+      <HintPath>E:\C#项目\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.Framework.Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Framework.ControlUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\C#项目\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.Framework.ControlUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Pager.Entity, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\06-分页控件\TestWinPager\TestPager_DevExpress\bin\x86\Debug\WHC.Pager.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Pager.WinControlDx, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\06-分页控件\TestWinPager\TestPager_DevExpress\bin\x86\Debug\WHC.Pager.WinControlDx.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.TestProject.UIDx">
+      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.TestProject.UIDx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoSizeFormClass.cs" />
+    <Compile Include="Frm_datamanager\frm_EditInputData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_datamanager\frm_EditInputData.Designer.cs">
+      <DependentUpon>frm_EditInputData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_datamanager\Frm_InputData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_datamanager\Frm_InputData.Designer.cs">
+      <DependentUpon>Frm_InputData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_simulator_SS\Frm_SS_historydata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_simulator_SS\Frm_SS_historydata.Designer.cs">
+      <DependentUpon>Frm_SS_historydata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="refer_frm\FrmEditUserinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="refer_frm\FrmEditUserinfo.designer.cs">
+      <DependentUpon>FrmEditUserinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="refer_frm\FrmShowEngineMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="refer_frm\FrmShowEngineMap.Designer.cs">
+      <DependentUpon>FrmShowEngineMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="refer_frm\FrmTestPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="refer_frm\FrmTestPage.Designer.cs">
+      <DependentUpon>FrmTestPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="refer_frm\FrmUserinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="refer_frm\FrmUserinfo.Designer.cs">
+      <DependentUpon>FrmUserinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_datamanager\Frm_EngineIntroduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_datamanager\Frm_EngineIntroduction.Designer.cs">
+      <DependentUpon>Frm_EngineIntroduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_simulator_Deterioration\Frm_simulator_Deterioration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_simulator_Deterioration\Frm_simulator_Deterioration.Designer.cs">
+      <DependentUpon>Frm_simulator_Deterioration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_simulator_Dyn\Frm_simulator_Dyn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_simulator_Dyn\Frm_simulator_Dyn.Designer.cs">
+      <DependentUpon>Frm_simulator_Dyn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_simulator_SS\Frm_simulator_SS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_simulator_SS\Frm_simulator_SS.Designer.cs">
+      <DependentUpon>Frm_simulator_SS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrom\Mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrom\Mainform.Designer.cs">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_datamanager\frm_EditInputData.resx">
+      <DependentUpon>frm_EditInputData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_datamanager\Frm_InputData.resx">
+      <DependentUpon>Frm_InputData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_simulator_SS\Frm_SS_historydata.resx">
+      <DependentUpon>Frm_SS_historydata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="refer_frm\FrmShowEngineMap.resx">
+      <DependentUpon>FrmShowEngineMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="refer_frm\FrmTestPage.resx">
+      <DependentUpon>FrmTestPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="refer_frm\FrmUserinfo.resx">
+      <DependentUpon>FrmUserinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_datamanager\Frm_EngineIntroduction.resx">
+      <DependentUpon>Frm_EngineIntroduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_simulator_Deterioration\Frm_simulator_Deterioration.resx">
+      <DependentUpon>Frm_simulator_Deterioration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_simulator_Dyn\Frm_simulator_Dyn.resx">
+      <DependentUpon>Frm_simulator_Dyn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_simulator_SS\Frm_simulator_SS.resx">
+      <DependentUpon>Frm_simulator_SS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrom\Mainform.resx">
+      <DependentUpon>Mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ZS.TestProject.Core\ZS.TestProject.Core.csproj">
+      <Project>{dcdbcad0-065d-41d6-ad37-868396364ff7}</Project>
+      <Name>ZS.TestProject.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MLApp">
+      <Guid>{C36E46AB-6A81-457B-9F91-A7719A06287F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
