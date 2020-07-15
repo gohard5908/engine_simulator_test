@@ -125,112 +125,112 @@
             // 
             // textEdit_Wfin
             // 
-            this.textEdit_Wfin.Location = new System.Drawing.Point(120, 180);
+            this.textEdit_Wfin.Location = new System.Drawing.Point(146, 208);
             this.textEdit_Wfin.Name = "textEdit_Wfin";
-            this.textEdit_Wfin.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_Wfin.Size = new System.Drawing.Size(50, 20);
             this.textEdit_Wfin.TabIndex = 17;
             // 
             // textEdit_MachNum
             // 
-            this.textEdit_MachNum.Location = new System.Drawing.Point(301, 156);
+            this.textEdit_MachNum.Location = new System.Drawing.Point(334, 180);
             this.textEdit_MachNum.Name = "textEdit_MachNum";
-            this.textEdit_MachNum.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_MachNum.Size = new System.Drawing.Size(50, 24);
             this.textEdit_MachNum.StyleController = this.layoutControl1;
             this.textEdit_MachNum.TabIndex = 16;
             // 
             // textEdit_DeltaTemp
             // 
-            this.textEdit_DeltaTemp.Location = new System.Drawing.Point(120, 156);
+            this.textEdit_DeltaTemp.Location = new System.Drawing.Point(146, 180);
             this.textEdit_DeltaTemp.Name = "textEdit_DeltaTemp";
-            this.textEdit_DeltaTemp.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_DeltaTemp.Size = new System.Drawing.Size(50, 24);
             this.textEdit_DeltaTemp.StyleController = this.layoutControl1;
             this.textEdit_DeltaTemp.TabIndex = 15;
             // 
             // textEdit_Altitude
             // 
-            this.textEdit_Altitude.Location = new System.Drawing.Point(301, 132);
+            this.textEdit_Altitude.Location = new System.Drawing.Point(334, 152);
             this.textEdit_Altitude.Name = "textEdit_Altitude";
-            this.textEdit_Altitude.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_Altitude.Size = new System.Drawing.Size(50, 24);
             this.textEdit_Altitude.StyleController = this.layoutControl1;
             this.textEdit_Altitude.TabIndex = 14;
             // 
             // textEdit_HPShaft
             // 
-            this.textEdit_HPShaft.Location = new System.Drawing.Point(120, 132);
+            this.textEdit_HPShaft.Location = new System.Drawing.Point(146, 152);
             this.textEdit_HPShaft.Name = "textEdit_HPShaft";
-            this.textEdit_HPShaft.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_HPShaft.Size = new System.Drawing.Size(50, 24);
             this.textEdit_HPShaft.StyleController = this.layoutControl1;
             this.textEdit_HPShaft.TabIndex = 13;
             // 
             // textEdit_LPShaft
             // 
-            this.textEdit_LPShaft.Location = new System.Drawing.Point(301, 108);
+            this.textEdit_LPShaft.Location = new System.Drawing.Point(334, 124);
             this.textEdit_LPShaft.Name = "textEdit_LPShaft";
-            this.textEdit_LPShaft.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_LPShaft.Size = new System.Drawing.Size(50, 24);
             this.textEdit_LPShaft.StyleController = this.layoutControl1;
             this.textEdit_LPShaft.TabIndex = 12;
             // 
             // textEdit_LPCPR
             // 
-            this.textEdit_LPCPR.Location = new System.Drawing.Point(120, 108);
+            this.textEdit_LPCPR.Location = new System.Drawing.Point(146, 124);
             this.textEdit_LPCPR.Name = "textEdit_LPCPR";
-            this.textEdit_LPCPR.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_LPCPR.Size = new System.Drawing.Size(50, 24);
             this.textEdit_LPCPR.StyleController = this.layoutControl1;
             this.textEdit_LPCPR.TabIndex = 11;
             // 
             // textEdit_HPCPR
             // 
-            this.textEdit_HPCPR.Location = new System.Drawing.Point(301, 84);
+            this.textEdit_HPCPR.Location = new System.Drawing.Point(334, 96);
             this.textEdit_HPCPR.Name = "textEdit_HPCPR";
-            this.textEdit_HPCPR.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_HPCPR.Size = new System.Drawing.Size(50, 24);
             this.textEdit_HPCPR.StyleController = this.layoutControl1;
             this.textEdit_HPCPR.TabIndex = 10;
             // 
             // textEdit_HPCRline
             // 
-            this.textEdit_HPCRline.Location = new System.Drawing.Point(120, 84);
+            this.textEdit_HPCRline.Location = new System.Drawing.Point(146, 96);
             this.textEdit_HPCRline.Name = "textEdit_HPCRline";
-            this.textEdit_HPCRline.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_HPCRline.Size = new System.Drawing.Size(50, 24);
             this.textEdit_HPCRline.StyleController = this.layoutControl1;
             this.textEdit_HPCRline.TabIndex = 9;
             // 
             // textEdit_LPCRline
             // 
-            this.textEdit_LPCRline.Location = new System.Drawing.Point(301, 60);
+            this.textEdit_LPCRline.Location = new System.Drawing.Point(334, 68);
             this.textEdit_LPCRline.Name = "textEdit_LPCRline";
-            this.textEdit_LPCRline.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_LPCRline.Size = new System.Drawing.Size(50, 24);
             this.textEdit_LPCRline.StyleController = this.layoutControl1;
             this.textEdit_LPCRline.TabIndex = 8;
             // 
             // textEdit_BPR
             // 
-            this.textEdit_BPR.Location = new System.Drawing.Point(120, 60);
+            this.textEdit_BPR.Location = new System.Drawing.Point(146, 68);
             this.textEdit_BPR.Name = "textEdit_BPR";
-            this.textEdit_BPR.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_BPR.Size = new System.Drawing.Size(50, 24);
             this.textEdit_BPR.StyleController = this.layoutControl1;
             this.textEdit_BPR.TabIndex = 7;
             // 
             // textEdit_FanRline
             // 
-            this.textEdit_FanRline.Location = new System.Drawing.Point(301, 36);
+            this.textEdit_FanRline.Location = new System.Drawing.Point(334, 40);
             this.textEdit_FanRline.Name = "textEdit_FanRline";
-            this.textEdit_FanRline.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_FanRline.Size = new System.Drawing.Size(50, 24);
             this.textEdit_FanRline.StyleController = this.layoutControl1;
             this.textEdit_FanRline.TabIndex = 6;
             // 
             // textEdit_W
             // 
-            this.textEdit_W.Location = new System.Drawing.Point(120, 36);
+            this.textEdit_W.Location = new System.Drawing.Point(146, 40);
             this.textEdit_W.Name = "textEdit_W";
-            this.textEdit_W.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_W.Size = new System.Drawing.Size(50, 24);
             this.textEdit_W.StyleController = this.layoutControl1;
             this.textEdit_W.TabIndex = 5;
             // 
             // textEdit_ID
             // 
-            this.textEdit_ID.Location = new System.Drawing.Point(120, 12);
+            this.textEdit_ID.Location = new System.Drawing.Point(146, 12);
             this.textEdit_ID.Name = "textEdit_ID";
-            this.textEdit_ID.Size = new System.Drawing.Size(69, 20);
+            this.textEdit_ID.Size = new System.Drawing.Size(50, 24);
             this.textEdit_ID.StyleController = this.layoutControl1;
             this.textEdit_ID.TabIndex = 4;
             // 
@@ -259,7 +259,7 @@
             this.emptySpaceItem3});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(382, 323);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(396, 302);
             this.layoutControlGroup1.Text = "layoutControlGroup1";
             this.layoutControlGroup1.TextVisible = false;
             // 
@@ -269,28 +269,28 @@
             this.layoutControlItem1.CustomizationFormText = "自定义数据编号";
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem1.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem1.Text = "自定义数据编号";
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.textEdit_W;
             this.layoutControlItem2.CustomizationFormText = "进口流量(W)";
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 28);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem2.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem2.Text = "进口流量(W)";
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(131, 18);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.CustomizationFormText = "emptySpaceItem1";
-            this.emptySpaceItem1.Location = new System.Drawing.Point(181, 0);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(188, 0);
             this.emptySpaceItem1.MinSize = new System.Drawing.Size(104, 24);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(181, 24);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(188, 28);
             this.emptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.emptySpaceItem1.Text = "emptySpaceItem1";
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
@@ -299,9 +299,9 @@
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
             this.emptySpaceItem2.CustomizationFormText = "emptySpaceItem2";
-            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 192);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 220);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(362, 111);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(376, 62);
             this.emptySpaceItem2.Text = "emptySpaceItem2";
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
@@ -309,131 +309,131 @@
             // 
             this.layoutControlItem3.Control = this.textEdit_FanRline;
             this.layoutControlItem3.CustomizationFormText = "风扇R线值";
-            this.layoutControlItem3.Location = new System.Drawing.Point(181, 24);
+            this.layoutControlItem3.Location = new System.Drawing.Point(188, 28);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem3.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem3.Text = "风扇R线值";
-            this.layoutControlItem3.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.textEdit_BPR;
             this.layoutControlItem4.CustomizationFormText = "燃烧室（BPR）";
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 48);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 56);
             this.layoutControlItem4.MinSize = new System.Drawing.Size(163, 24);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem4.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem4.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem4.Text = "燃烧室（BPR）";
-            this.layoutControlItem4.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.textEdit_LPCRline;
             this.layoutControlItem5.CustomizationFormText = "低压压气机R线值";
-            this.layoutControlItem5.Location = new System.Drawing.Point(181, 48);
+            this.layoutControlItem5.Location = new System.Drawing.Point(188, 56);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem5.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem5.Text = "低压压气机R线值";
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.textEdit_HPCRline;
             this.layoutControlItem6.CustomizationFormText = "高压压气机R线值";
-            this.layoutControlItem6.Location = new System.Drawing.Point(0, 72);
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 84);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem6.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem6.Text = "高压压气机R线值";
-            this.layoutControlItem6.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem6.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.textEdit_HPCPR;
             this.layoutControlItem7.CustomizationFormText = "高压涡轮机压气比";
-            this.layoutControlItem7.Location = new System.Drawing.Point(181, 72);
+            this.layoutControlItem7.Location = new System.Drawing.Point(188, 84);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem7.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem7.Text = "高压涡轮机压气比";
-            this.layoutControlItem7.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem7.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.textEdit_LPCPR;
             this.layoutControlItem8.CustomizationFormText = "低压压气机压气比";
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 96);
+            this.layoutControlItem8.Location = new System.Drawing.Point(0, 112);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem8.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem8.Text = "低压压气机压气比";
-            this.layoutControlItem8.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem8.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.textEdit_LPShaft;
             this.layoutControlItem9.CustomizationFormText = "低速轴轴速（rpm）";
-            this.layoutControlItem9.Location = new System.Drawing.Point(181, 96);
+            this.layoutControlItem9.Location = new System.Drawing.Point(188, 112);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem9.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem9.Text = "低速轴轴速（rpm）";
-            this.layoutControlItem9.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem9.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem10
             // 
             this.layoutControlItem10.Control = this.textEdit_HPShaft;
             this.layoutControlItem10.CustomizationFormText = "高速轴轴速（rpm）";
-            this.layoutControlItem10.Location = new System.Drawing.Point(0, 120);
+            this.layoutControlItem10.Location = new System.Drawing.Point(0, 140);
             this.layoutControlItem10.Name = "layoutControlItem10";
-            this.layoutControlItem10.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem10.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem10.Text = "高速轴轴速（rpm）";
-            this.layoutControlItem10.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem10.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem11
             // 
             this.layoutControlItem11.Control = this.textEdit_Altitude;
             this.layoutControlItem11.CustomizationFormText = "高度";
-            this.layoutControlItem11.Location = new System.Drawing.Point(181, 120);
+            this.layoutControlItem11.Location = new System.Drawing.Point(188, 140);
             this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem11.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem11.Text = "高度";
-            this.layoutControlItem11.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem11.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem12
             // 
             this.layoutControlItem12.Control = this.textEdit_DeltaTemp;
             this.layoutControlItem12.CustomizationFormText = "温度偏差";
-            this.layoutControlItem12.Location = new System.Drawing.Point(0, 144);
+            this.layoutControlItem12.Location = new System.Drawing.Point(0, 168);
             this.layoutControlItem12.Name = "layoutControlItem12";
-            this.layoutControlItem12.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem12.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem12.Text = "温度偏差";
-            this.layoutControlItem12.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem12.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem13
             // 
             this.layoutControlItem13.Control = this.textEdit_MachNum;
             this.layoutControlItem13.CustomizationFormText = "马赫数";
-            this.layoutControlItem13.Location = new System.Drawing.Point(181, 144);
+            this.layoutControlItem13.Location = new System.Drawing.Point(188, 168);
             this.layoutControlItem13.Name = "layoutControlItem13";
-            this.layoutControlItem13.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem13.Size = new System.Drawing.Size(188, 28);
             this.layoutControlItem13.Text = "马赫数";
-            this.layoutControlItem13.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem13.TextSize = new System.Drawing.Size(131, 18);
             // 
             // layoutControlItem14
             // 
             this.layoutControlItem14.Control = this.textEdit_Wfin;
             this.layoutControlItem14.CustomizationFormText = "燃油流量";
-            this.layoutControlItem14.Location = new System.Drawing.Point(0, 168);
+            this.layoutControlItem14.Location = new System.Drawing.Point(0, 196);
             this.layoutControlItem14.Name = "layoutControlItem14";
-            this.layoutControlItem14.Size = new System.Drawing.Size(181, 24);
+            this.layoutControlItem14.Size = new System.Drawing.Size(188, 24);
             this.layoutControlItem14.Text = "燃油流量";
-            this.layoutControlItem14.TextSize = new System.Drawing.Size(105, 14);
+            this.layoutControlItem14.TextSize = new System.Drawing.Size(131, 18);
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
             this.emptySpaceItem3.CustomizationFormText = "emptySpaceItem3";
-            this.emptySpaceItem3.Location = new System.Drawing.Point(181, 168);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(188, 196);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(181, 24);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(188, 24);
             this.emptySpaceItem3.Text = "emptySpaceItem3";
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
@@ -469,9 +469,9 @@
             // 
             // FrmEditInputData
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 398);
+            this.ClientSize = new System.Drawing.Size(413, 400);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnCancer);
             this.Controls.Add(this.btnAdd);

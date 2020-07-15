@@ -22,5 +22,15 @@ namespace ZS.TestProject.UIDx
         {
             InitializeComponent();
         }
+
+        private void labelControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -35,8 +35,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Cells">
-      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\02-空白系统框架\WHC.WareHouseMis\bin\Debug\Aspose.Cells.dll</HintPath>
+    <Reference Include="Aspose.Cells, Version=7.7.2.0, Culture=neutral, PublicKeyToken=00725b1ceb58d0a9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\Aspose.Cells.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -52,12 +54,15 @@
     <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraScheduler.v14.1, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraScheduler.v14.1.Core, Version=14.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="EntLibContrib.Data.MySql">
-      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.WareHouseDx\bin\Debug\EntLibContrib.Data.MySql.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Newtonsoft.Json.12.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="EntLibContrib.Data.MySql, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\EntLibContrib.Data.MySql.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -70,30 +75,40 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WHC.DictionaryDx">
-      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.DictionaryDx.dll</HintPath>
+    <Reference Include="WHC.DictionaryDx, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\WHC.DictionaryDx.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="WHC.Framework.BaseUIDx, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>E:\C#项目\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.Framework.BaseUIDx.dll</HintPath>
+      <HintPath>bin\Debug\dll\WHC.Framework.BaseUIDx.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="WHC.Framework.Commons">
-      <HintPath>E:\C#项目\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.Framework.Commons.dll</HintPath>
+    <Reference Include="WHC.Framework.Commons, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\WHC.Framework.Commons.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="WHC.Framework.ControlUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>E:\C#项目\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.Framework.ControlUtil.dll</HintPath>
+      <HintPath>bin\Debug\dll\WHC.Framework.ControlUtil.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="WHC.Pager.Entity, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\06-分页控件\TestWinPager\TestPager_DevExpress\bin\x86\Debug\WHC.Pager.Entity.dll</HintPath>
+      <HintPath>bin\Debug\dll\WHC.Pager.Entity.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="WHC.Pager.WinControlDx, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\06-分页控件\TestWinPager\TestPager_DevExpress\bin\x86\Debug\WHC.Pager.WinControlDx.dll</HintPath>
+      <HintPath>bin\Debug\dll\WHC.Pager.WinControlDx.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="WHC.TestProject.UIDx">
-      <HintPath>..\..\..\..\..\winform框架\Winform开发框架（5星好评，赠送BS开发框架）\01-仓库系统框架\WHC.Framework.StarterDx\bin\Debug\WHC.TestProject.UIDx.dll</HintPath>
+    <Reference Include="WHC.TestProject.UIDx, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dll\WHC.TestProject.UIDx.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +124,12 @@
     </Compile>
     <Compile Include="Frm_datamanager\Frm_InputData.Designer.cs">
       <DependentUpon>Frm_InputData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_simulator_Dyn\Frm_simulator_Dyn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_simulator_Dyn\Frm_simulator_Dyn.Designer.cs">
+      <DependentUpon>Frm_simulator_Dyn.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_simulator_SS\Frm_SS_historydata.cs">
       <SubType>Form</SubType>
@@ -152,12 +173,6 @@
     <Compile Include="Frm_simulator_Deterioration\Frm_simulator_Deterioration.Designer.cs">
       <DependentUpon>Frm_simulator_Deterioration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_simulator_Dyn\Frm_simulator_Dyn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_simulator_Dyn\Frm_simulator_Dyn.Designer.cs">
-      <DependentUpon>Frm_simulator_Dyn.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm_simulator_SS\Frm_simulator_SS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +193,9 @@
     <EmbeddedResource Include="Frm_datamanager\Frm_InputData.resx">
       <DependentUpon>Frm_InputData.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_simulator_Dyn\Frm_simulator_Dyn.resx">
+      <DependentUpon>Frm_simulator_Dyn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_simulator_SS\Frm_SS_historydata.resx">
       <DependentUpon>Frm_SS_historydata.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,9 +213,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_simulator_Deterioration\Frm_simulator_Deterioration.resx">
       <DependentUpon>Frm_simulator_Deterioration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_simulator_Dyn\Frm_simulator_Dyn.resx">
-      <DependentUpon>Frm_simulator_Dyn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_simulator_SS\Frm_simulator_SS.resx">
       <DependentUpon>Frm_simulator_SS.cs</DependentUpon>
