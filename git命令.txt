@@ -1,0 +1,3 @@
+【打开git bash】
+git remote add origin https://github.com/gohard5908/engine_simulator_test.git
+git push -u origin master
