@@ -83,17 +83,18 @@
       <HintPath>bin\Debug\dll\EntLibContrib.Data.MySql.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>bin\Debug\dll\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>bin\Debug\dll\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+      <HintPath>bin\Debug\dll\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -111,17 +112,20 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml" />
-    <Reference Include="WHC.Framework.Commons, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\WHC.Framework.Commons.dll</HintPath>
+    <Reference Include="WHC.Framework.BaseUIDx">
+      <HintPath>E:\C#项目\test_project\ZS\TestProject\Reference\WHC.Framework.BaseUIDx.dll</HintPath>
     </Reference>
-    <Reference Include="WHC.Framework.ControlUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\WHC.Framework.ControlUtil.dll</HintPath>
+    <Reference Include="WHC.Framework.Commons">
+      <HintPath>bin\Debug\dll\WHC.Framework.Commons.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WHC.Framework.ControlUtil">
+      <HintPath>bin\Debug\dll\WHC.Framework.ControlUtil.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="WHC.Pager.Entity">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Reference\WHC.Pager.Entity.dll</HintPath>
+      <HintPath>bin\Debug\dll\WHC.Pager.Entity.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>

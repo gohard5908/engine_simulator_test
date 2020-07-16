@@ -121,8 +121,15 @@ namespace ZS.TestProject.UIDx
         }
         private void barButtonItem2_ItemClick(object sender, ItemClickEventArgs e)
         {
-            CloseAllDocuments(); //首先关掉所有子页面，譬如数据管理的
-            ChildWinManagement.LoadMdiForm(this, typeof(Frm_simulator_SS)); //弹出稳态仿真功能页
+            try {
+                CloseAllDocuments(); //首先关掉所有子页面，譬如数据管理的
+                ChildWinManagement.LoadMdiForm(this, typeof(Frm_simulator_SS)); //弹出稳态仿真功能页
+            }
+            catch
+            {
+                MessageBox.Show("有问题");
+            }
+
         }
 
         public void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
